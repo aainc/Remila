@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<phpunit
+        bootstrap="./Image/tests/bootstrap.php"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        verbose="true"
+        stopOnFailure="true"
+        processIsolation="false"
+        backupGlobals="false"
+        syntaxCheck="true"
+        >
+    <testsuite name="Remila tests">
+        <directory>./Image/tests</directory>
+    </testsuite>
+</phpunit>
